@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Futura PT Book';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/FuturaCyrillicBook.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Futura PT Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/FuturaCyrillicLight.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Futura PT Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/FuturaCyrillicMedium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Futura PT Demi';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/FuturaCyrillicDemi.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Futura PT Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/FuturaCyrillicHeavy.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Futura PT Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Bold'), url('../fonts/FuturaCyrillicBold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Futura PT Extra Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/FuturaCyrillicExtraBold.woff') format('woff');
+}
+
+
+/* FUTURA */
+.futura-light {
+    font-family: 'Futura PT Light', system-ui !important;
+}
+
+.futura-book {
+    font-family: 'Futura PT Book', system-ui !important;
+}
+
+.futura-medium {
+    font-family: 'Futura PT Medium', system-ui !important;
+}
+
+.futura-bold {
+    font-family: 'Futura PT Bold', system-ui !important;
+}
+
+
+/* HEDVIG */
+.hedvig-regular {
+    font-family: "Hedvig Letters Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hedvig-bold {
+    font-family: "Hedvig Letters Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* POPPINS */
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}

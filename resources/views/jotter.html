@@ -1,0 +1,216 @@
+h2: hedvig-regular text-gray-800 mb-8 text-3xl text-4xl md:text-5xl max-w-xl
+topic: futura-medium text-2xl mb-6 md:mb-8 text-rose-600
+subtopic: py-2 futura-medium text-xl text-gray-700
+subsections: mt-16 md:mt-24
+<!-- list item -->
+<li>
+    <a href="{{ route('study_assessment') }}"
+        class="inline-flex items-center text-base font-medium text-rose-700 hover:text-rose-800">
+        Study visa
+        <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+        </svg>
+    </a>
+</li>
+
+<!-- link button -->
+<div class="py-6">
+    <x-link-one href="{{ route('assessment') }}">Check your visa eligibilty</x-link-one>
+</div>
+
+<!-- bordered card -->
+<div class="px-4 py-4 w-full md:w-[70%] rounded-lg border border-gray-300 hover:border-rose-600">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round"
+            d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+    </svg>
+    <p>
+        Do you know we can help you improve streamline your options and also
+        improve your chances of Canada Immigration?
+    </p>
+    <p>
+        Use our <a href="{{ route('assessment') }}" class="underline text-rose-700">free online canada immigration
+            assessment</a> tool to boost your immigration processing.
+    </p>
+</div>
+
+<!-- content layout -->
+<section class="grid grid-cols-4">
+    {{-- main --}}
+    <div class="col-span-4 lg:col-span-3 pt-12 pb-24 px-4 md:px-6 lg:px-10 bg-gray-50 text-gray-600">
+        <div class="relative">
+            <h2 class="hedvig-regular text-gray-800 mb-4 md:mb-6 lg:mb-8 text-3xl md:text-4xl max-w-xl">
+                Everything you need to know about Express Entry
+            </h2>
+        </div>
+    </div>
+    <!-- side pane -->
+    <div
+        class="hidden md:block col-span-4 lg:col-span-1 px-4 md:px-6 bg-gradient-to-b from-gray-200 from-[5vh] via-gray-100 via-[65vh] to-gray-50">
+        <p class="text-gray-700 text-xl mt-4 futura-medium mb-6">
+            Explore Canada immigration options
+        </p>
+        <ul class="space-y-2 pl-2 mt-2" role="list">
+            <li>
+                <a href="{{ route('PNP') }}"
+                    class="inline-flex items-center text-base font-medium text-rose-700 hover:text-rose-800">
+                    Provincial Nominee Program
+                    <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('quebec') }}"
+                    class="inline-flex items-center text-base font-medium text-rose-700 hover:text-rose-800">
+                    Quebec Immigration
+                    <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('canada_pr') }}"
+                    class="inline-flex items-center text-base font-medium text-rose-700 hover:text-rose-800">
+                    Canada Permanent Resident
+                    <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('pro_and_skilled') }}"
+                    class="inline-flex items-center text-base font-medium text-rose-700 hover:text-rose-800">
+                    Professional and skilled workers
+                    <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('atlantic_immigration') }}"
+                    class="inline-flex items-center text-base font-medium text-rose-700 hover:text-rose-800">
+                    Atlantic Immigration Program
+                    <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('rural_and_northern') }}"
+                    class="inline-flex items-center text-base font-medium text-rose-700 hover:text-rose-800">
+                    Rural and Northern Immigration Pilot
+                    <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('agri_food') }}"
+                    class="inline-flex items-center text-base font-medium text-rose-700 hover:text-rose-800">
+                    Agri-food Pilot
+                    <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('caregiver') }}"
+                    class="inline-flex items-center text-base font-medium text-rose-700 hover:text-rose-800">
+                    Caregiver program
+                    <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('canada_immigration_faqs') }}"
+                    class="inline-flex items-center text-base font-medium text-rose-700 hover:text-rose-800">
+                    Canada Immigration FAQs
+                    <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        <p class="text-gray-700 text-md mt-4 md:mt-8 mb-6">
+            Use our free visa eligibility assessment tool to know your immigration status and kick start your visa
+            application.
+        </p>
+        <div class="py-6">
+            <x-link-one href="{{ route('assessment') }}">Free visa assessment</x-link-one>
+        </div>
+    </div>
+</section>
+
+<!-- table -->
+<div class="rounded-lg border border-gray-200 mt-4 md:mt-6">
+    <div class="overflow-x-auto rounded-t-lg">
+        <table class="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
+            <thead class="text-left">
+                <tr>
+                    <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        City
+                    </th>
+                    <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Local transportation</th>
+                    <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Basic lunchtime menu in the business district</th>
+                    <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Suggested monthly grocery budget</th>
+                </tr>
+            </thead>
+
+            <tbody class="divide-y divide-gray-200">
+                <tr>
+                    <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Toronto</td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">$122.45/month</td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">$17.00</td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">$200.00 to $400.00</td>
+                </tr>
+                <tr>
+                    <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Montreal</td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">$80/month</td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">$17.00</td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">$350.00</td>
+                </tr>
+                <tr>
+                    <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Saint John’s</td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">$78.00/month</td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">$18.00</td>
+                    <td class="whitespace-nowrap px-4 py-2 text-gray-700">$240.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
