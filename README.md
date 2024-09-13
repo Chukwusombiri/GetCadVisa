@@ -50,7 +50,7 @@ Feel free to undo or modify these routes based on your project requirements.
 Follow these steps to set up the project locally:
 
 1. Clone the repository:
-git clone https://github.com/yourusername/your-repository.git
+git clone [https://github.com/yourusername/your-repository](https://github.com/Chukwusombiri/GetCadVisa).git
 
 
 2. Navigate to the project directory:
